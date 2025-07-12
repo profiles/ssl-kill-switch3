@@ -107,7 +107,7 @@ jobs:
         if: ${{ !startsWith(github.ref, 'refs/tags/') }}
         uses: actions/upload-artifact@v4
         with:
-          name: sslkillswitch3-debug
+          name: sslkillswitch3-fishhook-debug
           path: |
             ${{ github.workspace }}/.theos/obj/debug/*.dylib
 
