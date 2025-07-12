@@ -41,7 +41,7 @@
 			<key>key</key>
 			<string>excludedBundleIds</string>
 			<key>default</key>
-			<string></string>
+			<string>com.apple.sharingd</string>
 			<key>defaults</key>
 			<string>com.nablac0d3.SSLKillSwitchSettings</string>
 			<key>keyboard</key>
